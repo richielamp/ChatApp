@@ -1,0 +1,22 @@
+{
+  "name": "cortexcode",
+  "version": "1.0.0",
+  "description": "A realtime  distributed code editor with a terminal emulator",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd src/frontend && npm start",
+    "build": "cd src/frontend && npm run build",
+    "tauri": "tauri"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.5",
+    "@tauri-apps/cli": "^1.5.14"
+  }
+}
